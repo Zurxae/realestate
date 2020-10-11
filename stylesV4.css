@@ -26,7 +26,7 @@ section.home-page {
 }
 
 div.background-image {
-    background-image:url("../../../Images/home-background.jpg");
+    background-image:url("./Images/home-background.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
