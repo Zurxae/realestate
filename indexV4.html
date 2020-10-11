@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svetlana Zhivov | Realtor</title>
+    <link rel="stylesheet" href="./css/stylesV4.css">
+</head>
+
+<body>
+    <main id="main">
+        <section class="home-page">
+            <div class="background-image"></div>
+            <div class="home-content">
+                <nav>
+                    <div class="nav-background">
+                        <ul>
+                            <!--<li class="nav-links" id="home-link"><a href="#main">Home</a></li>-->
+                            <li class="nav-links" id="about-link"><a href="#about">About</a></li>
+                            <li class="nav-links" id="contact-link"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-container">
+                        <ul>
+                            <!--<li class="nav-links" id="home-link"><a href="#main">Home</a></li>-->
+                            <li class="nav-links" id="about-link"><a href="#about">About</a></li>
+                            <li class="nav-links" id="contact-link"><a href="#contact">Contact</a></li>
+                        </ul>
+                        <div class="menu-wrapper">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line2"></div>
+                        </div>
+                    </div>
+                    <!--<div class="nav-background">
+                        <ul>
+                            <li class="nav-link">Home</li>
+                            <li class="nav-link">About Me</li>
+                            <li class="nav-link">Contact Me</li>
+                        </ul>
+                    </div>-->
+                </nav>
+                <div class="home-title-container">
+                    <h1 class="home-name">Svetlana Zhivov</h1>
+                    <h2 class="home-job">Realtor</h2>
+                </div>
+                <div class="portrait-container">
+                    <img class="portrait" 
+                    src="../../Images/portrait_circle_editV3.png" 
+                    alt="Portrait">
+                </div>
+                <div class="btn-container">
+                    <a class="contact-btn" href="#contact-bookmark">Contact Me</a>
+                </div>
+            </div>
+        </section>
+        <section class="about-page" id="about">
+            <h2 class="subsec-heading">About Me</h2>
+            <p class="para">
+                <b>Congratulations!</b> You are living in a paradise or 
+                looking to live in it. South Florida is truly a 
+                place to be excited about.
+            </p>
+             
+            <p class="para">
+                To assist with the culturally diverse population of 
+                South Florida, I am able to offer my assistance in 
+                three different languages, which 
+                include <strong>English, Russian, and Hebrew.</strong> 
+                I work from Miami all the way up to Boca Raton.
+            </p>
+            
+            <p class="para">
+                I know that we will check every box on your list. You will
+                 be left with a home that you are not only satisfied
+                 with, but one that you will be thrilled to live in.
+            </p>
+        </section>
+        <section class="contact-page" id="contact">
+            <h2 class="subsec-heading" id="contact-bookmark">Contact Me</h2>
+            <form>
+                <div class="form-fname">
+                    <input type="text" id="fname" name="fname" placeholder=" " autocomplete="off" required>
+                    <label for="fname" class="label-name">
+                        <span>First Name</span>
+                    </label>
+                </div>
+                <div class="form-lname">
+                    <input type="text" id="lname" name="lname" placeholder=" " autocomplete="off" required>
+                    <label for="lname" class="label-name">
+                        <span>Last Name</span>
+                    </label>
+                </div>
+                <div class="form-email">
+                    <input type="email" id="email" name="email"  placeholder=" " autocomplete="off" required>
+                    <label for="email" class="label-name">
+                        <span>Email Address</span>
+                    </label>
+                </div>
+                <div class="form-phone">
+                    <input type="tel" id="phone" name="phone" placeholder=" " autocomplete="off" required>
+                    <label for="phone" class="label-name">
+                        <span>Phone Number</span>
+                    </label>
+                </div>
+                <div class="form-message">
+                    <label for="message" id="message-label">Message</label>
+                    <textarea type="text" id="message" name="message" rows="5" placeholder=" " autocomplete="off" required></textarea>
+                </div>
+                <div class="submit-div">
+                    <input class="submit-btn" type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="phone-div">
+        <h6>Phone:</h6>
+        <p><a href="tel:+9542436430">(954)-243-6430</a></p>
+        </div>
+        <div class="email-div">
+        <h6>Email:</h6>
+        <p><a href="mailto:svetlana@gelfandrealty.com">svetlana@gelfandrealty.com</a></p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
