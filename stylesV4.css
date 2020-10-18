@@ -125,6 +125,7 @@ h2.home-job {
 div.btn-container {
     display:flex;
     justify-content:center;
+    margin-bottom:2rem;
 }
 
 a.contact-btn {
@@ -135,6 +136,10 @@ a.contact-btn {
     text-transform:uppercase;
     text-decoration:none;
     display:inline-block;
+}
+
+.phone {
+    font-size:1.8rem;
 }
 
 div.portrait-container {
@@ -309,29 +314,32 @@ footer {
 }
 
 .phone-div, .email-div{
+    display:flex;
     margin-bottom:1rem;
-    font-size:1rem;
+    font-size:1.5rem;
+    align-items: baseline;
 }
 
 .phone-div h6 {
     font-size:1rem;
     margin-bottom:.3rem;
+    margin-right:1rem;
 }
 
 .email-div h6 {
     font-size:1rem;
+    margin-right:1rem;
 }
 
 a {
     color:#CCC;
 }
 
-@media screen and (min-width:1000px) {
-    .menu-wrapper {
-        display:none;
+@media screen and (max-width:455px) {
+    .menu-container {
+        min-height:2rem;
     }
-    
-    /*.navlinks {
-        display:block;
-    }*/
+    .phone-div, .email-div {
+        font-size:1.2rem;
+    }
 }
